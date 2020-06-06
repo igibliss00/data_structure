@@ -1,4 +1,5 @@
 import LinkedListNode from "./LinkedListNode.js";
+// const LinkedListNode = require("./LinkedListNode.js");
 
 export default class LinkedList {
   constructor() {

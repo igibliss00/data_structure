@@ -1,4 +1,5 @@
 import LinkedList from "./linkedList/singleList/LinkedList.js";
+// const LinkedList = require("./linkedList/singleList/LinkedList.js");
 
 const linkedList = new LinkedList();
 console.log({ linkedList });
