@@ -6,7 +6,9 @@ describe("LinkedList", () => {
   beforeEach(() => {
     linkedList = new LinkedList();
   });
-  it("Testing the test", () => {
-    console.log({ linkedList });
+  it("should append to the tail", () => {
+    linkedList.append("nodeValue");
+
+    expect(linkedList.peekFirst()).toBe("nodeValue");
   });
 });
