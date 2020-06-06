@@ -109,7 +109,8 @@ export default class LinkedList {
       return null;
     }
 
-    let iteration = 0;
+    // the list starts from index 1
+    let iteration = 1;
     let current = this.head;
     while (iteration !== nth) {
       current = current.next;
